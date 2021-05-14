@@ -1,0 +1,12 @@
+__pycache__*
+.pytest_cache*
+jsonsearch.egg-info/
+.venv/
+build/*
+dist/*
+.cache
+.vscode
+.coverage
+*.pyc
+*.swp
+*.egg
