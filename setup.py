@@ -20,7 +20,7 @@ def requirements():
 
 setuptools.setup(
     name="jsonsearch",
-    version="0.0.1",
+    version="0.0.2",
     author="sty945",
     author_email="sutaoyu@yeah.net",
     description="JsonSearch is a simple, yet effcient python library for searhing specific elements in json data.",
