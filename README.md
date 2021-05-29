@@ -71,7 +71,7 @@ JsonSearch is available on PyPI:
 or 
 
 ```
-pip install --index-url https://pypi.org/simple/ jsonsearch
+pip install --index-url https://pypi.org/simple/jsonsearch
 ```
 
 
