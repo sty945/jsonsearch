@@ -75,6 +75,10 @@ pip install --index-url https://pypi.org/simple/jsonsearch
 ```
 
 
+# 中文教程
+
+中文使用方式请查看[这里](https://sty945.blog.csdn.net/article/details/117379412)
+
 
 
 
