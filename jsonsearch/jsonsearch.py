@@ -82,9 +82,17 @@ class JsonSearch():
         for k in json_object:
             if k == key:
                 self.value_result_list.append(json_object[k])
-            if isinstance(json_object[k], dict):
+            
+            if isinstance(k, dict):
+                self.__search_value(k, key)
+            elif isinstance(json_object[k], dict):
                 self.__search_value(json_object[k], key)
-            if isinstance(json_object[k], list):
+
+            elif isinstance(k, list):
+                for item in k:
+                    if isinstance(item, dict):
+                        self.__search_value(item, key)
+            elif isinstance(json_object[k], list):
                 for item in json_object[k]:
                     if isinstance(item, dict):
                         self.__search_value(item, key)
